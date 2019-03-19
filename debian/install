@@ -1,0 +1,3 @@
+.build/							usr/src/BackEnd
+terraform/scripts/install.sh	usr/src/BackEnd
+terraform/scripts/start.sh		usr/src/BackEnd

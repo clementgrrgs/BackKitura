@@ -1,0 +1,4 @@
+module agentcore {
+    umbrella "/Users/clement/Documents/IOS/BackEnd/.build/checkouts/omr-agentcore--1117420739938280787/src/agentcore/include"
+    export *
+}

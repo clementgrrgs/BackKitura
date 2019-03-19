@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <form action="/create" method="post">
+            Nom: <input type="text" name="title"><br>
+            Ingredients: <input type="text" name="Ingredient"><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <p>{{ isCreated }}</p>
+
+        <a href="/show">Voir les pizzas en cours</a>
+
+    </body>
+</html>

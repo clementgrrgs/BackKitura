@@ -1,0 +1,8 @@
+<html>
+  <h4>Liste des pizzas non servies</h4>
+  {% for pizza in pizzas %}
+      <span> Nom : {{ pizza.title }} </span><span>  -  </span>
+      <span> Ingredients : {{ pizza.Ingredient }} </span><span>  -  </span>
+      <button>Servie</button><hr><br>
+  {% endfor %}
+</html>
